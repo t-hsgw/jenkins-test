@@ -1,7 +1,7 @@
 import unittest
 import sys
 sys.path.append('../')
-from main import *
+from main import Main
 
 class TestMain(unittest.TestCase):
     def test_sum(self):
